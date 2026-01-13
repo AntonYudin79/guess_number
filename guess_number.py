@@ -8,8 +8,8 @@ while True:
 
     if guess_number < number:
         print('Ваше число меньше того, что загадано.')
-    if guess_number > number:
+    elif guess_number > number:
         print('Ваше число боьше того, что загадано.')
-    if guess_number == number:
+    elif guess_number == number:
         break
 print('Отличная интуиция! Вы угадали число :)')
